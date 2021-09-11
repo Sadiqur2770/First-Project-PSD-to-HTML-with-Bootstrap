@@ -1,0 +1,598 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 451.98px){
+    .banner-text h2 {
+        font-size: 21px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {
+        background: rgb(37, 37, 37);
+    }
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        padding: 100px 0px;
+    }
+    .banner-text p {
+        font-size: 13px;
+        line-height: 26px;
+        padding: 55px 80px 42px 80px;
+    }
+    #about-part {
+        padding: 40px;
+    }
+    .about-text h2 {   
+        font-size: 21px;
+        padding: 25px;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 13px;
+        line-height: 25px;
+        padding-right: 0px !important;
+        padding-bottom: 14px;
+        text-align: justify;
+    }
+    .about-text a {
+        font-size: 15px;
+        padding: 8px 28px;
+        margin-top: 10px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    #video-part {
+        padding: 50px 0px;
+    }
+    #service-part {
+        padding: 40px 0px;
+    }
+    .service-text {
+        padding-top: 30px;
+    }
+    .service-text p {
+        margin: 0px !important;
+    }
+    #team {
+        padding: 40px 0px;
+    }
+    .team-text-top h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .team-text-buttom p {
+        font-size: 13px;
+        padding: 20px 0px 10px 0px;
+    }
+    .team-text-top p::after {
+        top: 45px;
+    }
+    .team-text-buttom a {
+        font-size: 15px;
+        padding: 8px 28px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    #project {
+        padding: 40px 0px;
+    }
+    .project-top-left h3 {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .project-top-right p {
+        font-size: 12px;
+    }
+    .project-bottom a {
+        font-size: 15px;
+        padding: 8px 28px;
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #team-two {
+        padding: 40px 0px;
+    }
+    .icon-left {
+        font-size: 25px;
+    }
+    .team-two-slider-text p {
+        font-size: 13px;
+        padding: 20px 60px 20px 60px;
+    }
+    #contact {
+        padding: 40px 0px;
+    }
+    .contact-left h3, .contact-right h3 {
+        font-size: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .contact-left a {
+        font-size: 15px;
+        padding: 8px 28px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    #footer {
+        padding: 50px 0px;
+    }
+    .footer-top-left img {
+        padding-bottom: 15px;
+        margin: 0 auto;
+    }
+    .footer-top-left{
+        text-align: center;
+    }
+    .footer-top-left p {
+        padding: 0px 60px 0px 60px;
+    }
+    .footer-top-midle h4, .footer-top-right h4 {
+        padding: 30px 0px 15px 0px;
+        text-align: center;
+    }
+    .footer-top-midle p {
+        padding: 0px 40px 0px 80px;
+    }
+    .footer-top-right{
+        text-align: center;
+    }
+    .footer-top-right input {
+       
+        margin-left: 20px;
+    }
+    .form-control {
+        width: 100% !important;
+    }
+    .btn-custom {
+        padding: 4px 15px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .footer-bottom{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-bottom-right p {
+        padding-top: 10px;
+        text-align: center;
+       
+    }
+    .footer-bottom-left ul {
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 452px) and (max-width: 575.98px) { 
+    .banner-text h2 {
+        font-size: 26px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {
+        background: rgb(37, 37, 37);
+    }
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        padding-top: 110px;
+    }
+    .banner-text {
+        padding-bottom: 150px;
+    }
+    .banner-text {
+        padding-bottom: 110px;
+    }
+    .banner-text p {
+        line-height: 27px;
+    }
+    #about-part {
+        padding: 45px;
+    }
+    .about-text h2 {   
+        font-size: 26px;
+        padding: 25px;
+        text-align: center;
+    }
+    .about-text p {
+        line-height: 26px;
+        padding-right: 0px !important;
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+    .about-text a {
+        font-size: 16px;
+        padding: 10px 28px;
+        margin-top: 10px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    #video-part {
+        padding: 65px 0px;
+    }
+    #service-part {
+        padding: 45px 0px;
+    }
+    .service-text {
+        padding-top: 35px;
+    }
+    .service-text p {
+        margin: 0px !important;
+    }
+    #team {
+        padding: 45px 0px;
+    }
+    .team-text-top h3 {
+        padding-bottom: 10px;
+    }
+    .team-text-buttom p {
+        padding: 20px 0px 20px 0px;
+    }
+    .team-text-buttom a {
+        font-size: 16px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    #project {
+        padding: 45px 0px;
+    }
+    .project-top-left h3 {
+        padding-bottom: 40px;
+    }
+    .project-bottom a {
+        font-size: 16px;
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    #team-two {
+        padding: 45px 0px;
+    }
+    .team-two-slider-text p {
+        font-size: 14px;
+        padding: 30px 60px 30px 60px;
+    }
+    #contact {
+        padding: 45px 0px;
+    }
+    .contact-left h3, .contact-right h3 {
+        font-size: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .contact-left a {
+        font-size: 16px;
+        padding: 8px 28px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    #footer {
+        padding: 50px 0px;
+    }
+    .footer-top-left img {
+        padding-bottom: 15px;
+        margin: 0 auto;
+    }
+    .footer-top-left{
+        text-align: center;
+    }
+    .footer-top-left p {
+        padding: 0px 60px 0px 100px;
+    }
+    .footer-top-midle h4, .footer-top-right h4 {
+        padding: 35px 0px 15px 0px;
+        text-align: center;
+    }
+    .footer-top-midle p {
+        padding: 0px 30px 0px 90px;
+    }
+    .footer-top-right{
+        text-align: center;
+    }
+    .footer-top-right input {
+       
+        margin-left: 85px;
+    }
+    .form-control {
+        width: 100% !important;
+    }
+    .btn-custom {
+        padding: 4px 15px;
+        margin-left: 85px;
+        margin-right: 10px;
+    }
+    .footer-bottom{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-bottom-right p {
+        padding-top: 10px;
+        text-align: center;
+       
+    }
+    .footer-bottom-left ul {
+        padding: 0;
+        margin-top: 30px;
+    }
+ } 
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {
+        background: rgb(37, 37, 37);
+    }
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        padding-top: 130px;
+    }
+    .banner-text p {
+        line-height: 30px;
+        padding: 57px 90px 52px 90px;
+    }
+    .banner-text {
+        padding-bottom: 110px;
+    }
+    #about-part {
+        padding: 40px;
+    }
+    .about-text h2 {
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .about-text p {
+        padding-right: 0px;
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+    .about-text a {
+        padding: 10px 28px;
+        width: 100%;
+        text-align: center;
+    }
+    #video-part {
+        padding: 80px 0px;
+    }
+    #service-part {
+        padding: 55px 0px;
+    }
+    .service-text {
+        padding-top: 30px;
+    }
+    .service-text img {
+        padding-bottom: 20px;
+    }
+    #team {
+        padding: 50px 0px;
+    }
+    .team-text-buttom p {
+        padding: 20px 0px 20px 0px;
+    }
+    .team-text-buttom a {
+        display: inline-block;
+        width: 100%;
+    }
+    #project {
+        padding: 50px 0px;
+    }
+    .project-top-left h3 {
+        padding-bottom: 50px;
+    }
+    .project-bottom a {
+        margin-top: 50px;
+        width: 100%;
+    }
+    #team-two {
+        padding: 50px 0px;
+    }
+    #contact {
+        padding: 50px 0px;
+    }
+    .contact-left a {
+        margin: 20px 0px 30px 0px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right h3 {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #footer {
+        padding: 50px 0px;
+    }
+    .footer-top-left img {
+        padding-bottom: 15px;
+        margin: 0 auto;
+    }
+    .footer-top-left{
+        text-align: center;
+    }
+    .footer-top-left p {
+        padding: 0px 60px 0px 100px;
+    }
+    .footer-top-midle h4, .footer-top-right h4 {
+        padding: 35px 0px 15px 0px;
+        text-align: center;
+    }
+    .footer-top-midle p {
+        padding: 0px 0px 0px 100px;
+    }
+    .footer-top-right{
+        text-align: center;
+    }
+    .footer-top-right input {
+       
+        margin-left: 85px;
+    }
+    .form-control {
+        width: 100% !important;
+    }
+    .btn-custom {
+        padding: 4px 15px;
+        margin-left: 80px;
+        margin-right: 10px;
+    }
+    .footer-bottom{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-bottom-right p {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .footer-bottom-left ul {
+        padding: 0;
+        margin-top: 30px;
+    }
+    .footer-bottom-right p {
+        margin-bottom: 0px !important;
+    }
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {
+        background: rgb(37, 37, 37);
+    }
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    #about-part {
+        padding: 50px;
+    }
+    .about-text h2 {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .about-text p {
+        padding-right: 0px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+    .about-text a {
+        padding: 13px 28px;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #video-part {
+        padding: 100px 0px;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .team-text-buttom a {
+        width: 100%;
+        display: inline-block;
+    }
+    .project-top-left h3 {
+        padding-bottom: 40px;
+    }
+    .project-bottom a {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .contact-left a {
+        padding: 7px 28px;
+        margin: 20px 0px 50px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right h3 {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    .footer-top-left img {
+        padding-bottom: 10px;
+    }
+    .footer-top-midle h4, .footer-top-right h4 {
+        padding-bottom: 15px;
+    }
+    .footer-top-left p {
+        padding-right: 20px;
+    }
+    .footer-top-midle p {
+        padding-right: 50px;
+    }
+    .btn-custom {
+        padding: 5px 20px;
+        display: inline-block;
+    }
+ }
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .btn-custom {
+        padding: 3px 13px;
+    }
+    .video-icon h3 {
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .communication-icon{
+        display: inline-block;
+       text-align: center;
+       font-size: 20px !important;
+       color: #ffffff;
+    }
+}
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
+
+
+
